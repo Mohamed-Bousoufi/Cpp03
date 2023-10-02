@@ -1,0 +1,23 @@
+🅸ᑎᕼ🅴ᖇ🅸🆃ᗩᑎᑕ🅴
+
+The capability of a class to derive properties and characteristics from another class is called Inheritance.
+Inheritance is one of the most important features of Object-Oriented Programming.
+it means, the derived class inherits all the properties of the base class,
+without changing the properties of base class and may add new features to its own. 
+
+ᗯᕼ🅴ᑎ 🆃🅾 ᑌᔕ🅴 🅸ᑎᕼ🅴ᖇ🅸🆃ᗩᑎᑕ🅴
+
+Code Reusability
+
+Generalization and Specialization: 
+
+Inheritance helps in modeling real-world relationships where you have a general class
+that represents common characteristics and specialized classes that represent more specific characteristics.
+For example, you could have a base class Vehicle and derived classes like Car, Bicycle, and Truck.
+
+🆅🅸🆁🆃🆄🅰🅻 🅵🆄🅽🅲🆃🅸🅾🅽
+
+is a member function that you expect to be redefined in derived classes.
+When you refer to a derived class object using a pointer or a reference to the base class,
+you can call a virtual function for that object and execute the derived class's version of the function.
+
