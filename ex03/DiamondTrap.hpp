@@ -10,7 +10,7 @@ class DiamondTrap : public ScavTrap , public FragTrap
                 std :: string name;
     public :
         DiamondTrap();
-        DiamondTrap(const std :: string &Name);
+        DiamondTrap(const std :: string Name);
         DiamondTrap(DiamondTrap &copy);
         void operator=(DiamondTrap &copy);
         ~DiamondTrap();

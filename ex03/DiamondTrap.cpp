@@ -6,7 +6,7 @@ DiamondTrap::DiamondTrap()
     std :: cout << "Diamnond Default Constructor" << std :: endl;
 }
 
-DiamondTrap :: DiamondTrap(const std :: string &name) : name(name)
+DiamondTrap :: DiamondTrap(const std :: string name) : name(name)
 {
     std :: cout << "Diamnond Constructor" << std :: endl;
     ClapTrap :: name = (name + "_clap_name");

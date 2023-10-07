@@ -13,7 +13,7 @@ ClapTrap :: ClapTrap(std :: string Name) : Name(Name)
     this->Hitpoints = 10;
     this->Energy = 10;
     this->Attackdamge = 0;
-    std :: cout << this->Name <<" Constructor Called" << std::endl;
+    std :: cout <<"ClapTrap "<< this->Name <<" Constructor Called" << std::endl;
 }
 ClapTrap :: ClapTrap(ClapTrap &copy)
 {
@@ -22,7 +22,7 @@ ClapTrap :: ClapTrap(ClapTrap &copy)
 
 ClapTrap :: ~ClapTrap()
 {
-    std :: cout << this->Name <<" Destructor Called" << std::endl;
+    std :: cout <<"ClapTrap "<< this->Name <<" Destructor Called" << std::endl;
 }
 void ClapTrap :: operator=(ClapTrap &copy)
 {

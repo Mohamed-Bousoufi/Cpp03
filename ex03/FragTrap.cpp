@@ -9,7 +9,7 @@ FragTrap :: FragTrap()
     std :: cout << "FragTrap Defualt Constructor Called" << std :: endl;
 }
 
-FragTrap :: FragTrap(const std :: string &name)
+FragTrap :: FragTrap(const std :: string name)
 {
     this->name = name;
     this->Hitpoints = 100;

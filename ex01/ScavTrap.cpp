@@ -8,7 +8,7 @@ ScavTrap :: ScavTrap()
     std :: cout << "ScavTrap Defualt Constructor Called" << std :: endl;
 }
 
-ScavTrap :: ScavTrap(std :: string &Name)
+ScavTrap :: ScavTrap(std :: string Name)
 {
     this->Name = Name;
     this->Hitpoints = 100;

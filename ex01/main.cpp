@@ -2,7 +2,9 @@
 
 int main ()
 {
-  ScavTrap  s;
+  ScavTrap  s("milan");
   s.attack("inter");
+  s.beRepaired(8);
+  s.takeDamage(10);
 
 }

@@ -8,7 +8,7 @@ FragTrap :: FragTrap()
     this->Attackdamge = 30;
 }
 
-FragTrap :: FragTrap(const std :: string &Name)
+FragTrap :: FragTrap(const std :: string Name)
 {
     this->Name = Name;
     this->Hitpoints = 100;

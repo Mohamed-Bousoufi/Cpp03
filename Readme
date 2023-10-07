@@ -19,5 +19,12 @@ For example, you could have a base class Vehicle and derived classes like Car, B
 
 is a member function that you expect to be redefined in derived classes.
 When you refer to a derived class object using a pointer or a reference to the base class,
-you can call a virtual function for that object and execute the derived class's version of the function.
+you can call a virtual function for that object and execute the derived class version of the function.
 
+Virtual base classes in C++ are used to prevent multiple
+instances of a given class from appearing in an 
+inheritance hierarchy when using multiple inheritances.
+
+When a base class is specified as a virtual base,
+it can act as an indirect base more than once without duplication of its data members.
+A single copy of its data members is shared by all the base classes that use virtual base. 
